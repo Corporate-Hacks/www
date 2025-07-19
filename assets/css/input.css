@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+  themes: wireframe --default, dim --prefers-dark;
+  logs: false;
+}
+@plugin "daisyui/theme" {
+  name: "wireframe";
+  default: true;
+  color-scheme: light;
+
+  /* colors */
+  --color-link: oklch(25% 0.35 240);        /* Much darker, more saturated link color */
+
+  /* effects */
+  --depth: 1;
+  --noise: 1;
+}
+@plugin "daisyui/theme" {
+  name: "dim";
+  default: false;
+  color-scheme: dark;
+
+  /* colors */
+  --color-primary: oklch(87% 0.01 258.338);
+  --color-link: oklch(90% 0.25 258.338);     /* Brighter, more saturated link color */
+
+  /* effects */
+  --depth: 1;
+  --noise: 1;
+}

@@ -1,0 +1,22 @@
+
+
+
+<rss version="2.0">
+  <channel>
+    <title>Corporate Hacks LLC</title>
+    <link>https://corporatehacks.com</link>
+    <description>Transform your workplace with custom-designed workshop spaces that boost employee engagement and innovation. We specialize in creating dynamic environments for hands-on learning, prototyping, and collaboration in Chattanooga and surrounding areas. From equipment installation to maintenance, we deliver complete workshop solutions for forward-thinking businesses.</description>
+    <language>en-us</language>
+    <image>
+      <url>https://corporatehacks.com/social-preview.png</url>
+      <title>Corporate Hacks LLC</title>
+      <link>https://corporatehacks.com</link>
+    </image>
+    <managingEditor>me@corporatehacks.com (Timothy Martin)</managingEditor>
+    <webMaster>me@corporatehacks.com (Timothy Martin)</webMaster>
+    <generator>Eleventy</generator>
+    <ttl>60</ttl>
+
+    
+  </channel>
+</rss>
